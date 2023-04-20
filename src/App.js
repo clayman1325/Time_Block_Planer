@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import classes from "./App.module.css";
 import './App.css';
+import Daily from './Pages/Daily/Daily';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className={classes.screen}>
+          <div className={classes.frame}>
+            <Daily />
+          </div>
+      </div>
     </div>
   );
 }

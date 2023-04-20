@@ -1,0 +1,13 @@
+.screen {
+  width: 1305px;
+  height: 660px;
+  /* border: solid pink 3px; */
+}
+.frame {
+  width: 50%;
+  height: 75%;
+  margin-top:   10%;
+  margin-left:  25%;
+  margin-bottom: 5%;
+  /* border: solid 1px cyan; */
+}
