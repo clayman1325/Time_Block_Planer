@@ -1,0 +1,5 @@
+.unique {
+    border-color: rgb(1, 1, 1);
+    border-style: solid dashed solid dashed;
+    border-width: 1px 1px 1px 1px;
+}
