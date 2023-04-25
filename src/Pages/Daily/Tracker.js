@@ -1,4 +1,5 @@
 import TimeBlock from "./Components/TimeBlock";
+import Column from "./Components/Column"
 import classes from "./Tracker.module.css";
 
 const Tracker = (props) => {
@@ -8,7 +9,8 @@ const Tracker = (props) => {
             <body>
                 {/* <Schedule /> */}
                 <div className={classes.test}>
-                    <TimeBlock text={"Study Robotics"} time={{start: 900, finish: 930}} />
+                    <Column/>
+                    {/* <TimeBlock text={"Study Robotics"} time={{start: 900, finish: 930}} /> */}
                 </div>
             </body>
         </section>
