@@ -16,6 +16,10 @@ const TimeBlock = (props) => {
         )
     }
 
+    const handleTimeblock = () => {
+        alert("edit or create new time block")
+    }
+
     useEffect(()=> {
         const finish = fromHourToMin(props.time.finish);
         const start  = fromHourToMin(props.time.start);
@@ -24,7 +28,7 @@ const TimeBlock = (props) => {
         console.log(props.time.finish, finish, props.time.start, start, start - finish, numberOfBlocks)
     }, [props])
     return (
-        <div>
+        <div onClick={handleTimeblock}>
             { buildTimeBlock() }
         </div>
     )

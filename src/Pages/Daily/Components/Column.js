@@ -34,8 +34,11 @@ const Column = () => {
 
     return (
         <div className={classes.main}>
+            <div className={classes.column} >
+                { buildColumn() }
+            </div>
             {/* <TimeBlock text={"Study Robotics"} time={{start: 900, finish: 930}} /> */}
-            { buildColumn() }
+
         </div>
     )
 }

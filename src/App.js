@@ -6,9 +6,13 @@ function App() {
   return (
     <div>
       <div className={classes.screen}>
-          <div className={classes.frame}>
-            <Daily />
-          </div>
+          <header className={classes.header}></header>
+          <body className={classes.body}>
+            <aside className={classes.aside}></aside>
+            <section className={classes.frame}>
+              <Daily />
+            </section>
+          </body>
       </div>
     </div>
   );
