@@ -11,7 +11,8 @@ const TimeBlock = (props) => {
         const height = BLOCK_HEIGHT * timeBlocks;
         return(
             <div className={classes.unique} style={{height : `${height}px`}}>
-                {props.text}
+                <aside className={classes.aside}>{props.time.start}</aside>
+                <div className={classes.text}>{props.text.trim().slice(0,19)}</div>
             </div>
         )
     }

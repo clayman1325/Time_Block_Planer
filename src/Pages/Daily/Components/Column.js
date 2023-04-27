@@ -3,9 +3,11 @@ import TimeBlock from "./TimeBlock";
 
 const Column = () => {
     const timeBlocks = [
+        { text: "create events in calendar", start: 800, finish: 900 },
         { text: "Study Robotics", start: 1200, finish: 1300 },
         { text: "Investment and Finance", start: 1300, finish:1330 },
         { text: "Node JS", start: 1330, finish: 1900 },
+        { text: "Juego de Magia",start: 1900, finish: 2200 }
     ]
 
     const buildColumn = () => {
